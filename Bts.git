@@ -1,0 +1,175 @@
+Skip to content
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+
+btc bts
+Repositories5
+Code400K
+Commits43K
+Issues420
+Marketplace0
+Topics0
+Wikis59
+Users0
+Languages
+105,112 C
+40,808 CSV
+40,504 Text
+30,470 Jupyter Notebook
+19,853 HTML
+14,571 XML
+12,904 C++
+12,095 JavaScript
+9,797 Python
+7,810 Objective-C
+Advanced search 
+400,527 code results
+@chris4210
+chris4210/bitshares-munich.de – options.js.example
+Showing the top four matches Last indexed on Jul 3, 2018
+        {key: 'EUR', img_src:'img/bitEUR.png', width:15, height:15, alt:"BTS/EUR", border:0, label: 'SURPRESS'},
+        {key: 'BTS_BTC', img_src:'img/bitBTS.png', width:15, height:15, alt:"BTS_BTC/EUR", border:0,  label: 'BTS_BTC/EUR'},
+        {key: 'bitUSD_BTC', img_src:'img/bitUSD.png', width:15, height:15, alt:"bitUSD", border:0,  label: 'bitUSD/EUR'},
+@JWasm
+JWasm/JWasm-regressions – BT1.ASM
+Showing the top five matches Last indexed on Jul 1, 2018
+Assembly
+
+;--- BT, BTC, BTR, BTS
+
+	.386
+	.model flat
+
+	.data
+
+vq	dq 0
+vd	dd 0
+vw	dw 0
+vb	db 0
+	bts eax,ecx
+	bts vd, ecx
+
+;--- LOCK for BT is invalid, 
+;--- for BTC, BTR and BTS LOCK is ok for memory operands only
+@clayop
+clayop/jebi – jebi.py
+Showing the top six matches Last indexed on Jul 6, 2018
+Python
+def polo_price(sell_amount, buy_amount):
+    polo_ob = polo_orderbook("BTC_BTS")
+    ret = {"bid":{}, "ask":{}}
+
+    bts_sum = 0
+    btc_sum = 0
+            bts_sum = bts_sum + float(polo_ob["bids"][i][1])
+            btc_sum = btc_sum + float(polo_ob["bids"][i][1])*float(polo_ob["bids"][i][0])
+@Terraspace
+Terraspace/UASM – BT1.ASM
+Showing the top four matches Last indexed on Jul 2, 2018
+Assembly
+
+;--- BT, BTC, BTR, BTS
+
+	.386
+	.model flat
+
+	.data
+
+vq	dq 0
+vd	dd 0
+vw	dw 0
+vb	db 0
+
+	.code
+
+	bt ax, 1
+;--- LOCK for BT is invalid, 
+;--- for BTC, BTR and BTS LOCK is ok for memory operands only
+;--- However, Masm will always accept LOCK for BT, BTC, BTR and BTS
+@ygpark
+ygpark/ygpark.github.com – wallet.html
+Showing the top 11 matches Last indexed on Jun 27, 2018
+HTML
+		var krw_by_xrp = [];
+		
+		count["BTS"] = Number($("#txtBtsCnt").val());
+		btc["BTS"] = getBTCOnPoloniex("BTS") * count["BTS"];
+		krw_by_btc["BTS"] = getKRWOnPoloniexByBTC("BTS") * count["BTS"];
+		krw_by_xrp["BTS"] = getKRWOnPoloniexByXRP("BTS") * count["BTS"];
+@bytekeep
+bytekeep/hx-ui – branding.js
+Showing the top five matches Last indexed on Dec 7, 2018
+JavaScript
+        ["USD", "GDEX.EOS"],
+        ["USD", "GDEX.BTO"],
+        ["USD", "OPEN.EOSDAC"],
+        ["CNY", "BTS"],
+        ["CNY", "OPEN.BTC"],
+        ["CNY", "GDEX.EOS"],
+        ["CNY", "GDEX.BTO"],
+        ["CNY", "GDEX.BTM"],
+        ["OPEN.BTC", "BTS"],
+        ["OPEN.BTC", "OPEN.ETH"],
+@toCryptoLeader
+toCryptoLeader/cv – branding.js
+Showing the top four matches Last indexed 17 days ago
+JavaScript
+export function getUnits(chainId = "4018d784") {
+    if (chainId === "4018d784")
+        return ["BTS", "USD", "CNY", "BTC", "EUR", "GBP"];
+    else if (chainId === "39f5e2ed") return ["TEST"];
+ * These are the highlighted bases in "My Markets" of the exchange
+ *
+ * @returns {[string]}
+ */
+
+export function getMyMarketsBases() {
+    return ["BTC", "ETH", "BTS", "USD", "CNY"];
+@czha483
+czha483/Cpp-OO-Programming – test00.cpp
+Showing the top 11 matches Last indexed on Jun 29, 2018
+C++
+int main(void) {
+  btree<char> btc(2);
+  btc.insert('d');
+  btc.insert('i');
+  btc.insert('h');
+  btc.insert('b');
+  btc.insert('c');
+  btc.insert('e');
+  btc.insert('j');
+  btc.insert('k');
+  btc.insert('n');
+  btc.insert('m');
+@ivg
+ivg/x86-lifter – opcode.ml
+Showing the top six matches Last indexed on Jul 1, 2018
+OCaml
+  | `BTS32mi8
+  | `BTS16mi8
+] with sexp
+
+type bts_mem = [bts_mr | bts_mi] with sexp
+
+type btx_rr = [bt_rr | btc_rr | btr_rr | bts_rr ] with sexp
+type btx_ri = [bt_ri | btc_ri | btr_ri | bts_ri ] with sexp
+type btx_mr = [bt_mr | btc_mr | btr_mr | bts_mr ] with sexp
+@bitshares-munich
+bitshares-munich/BitShares-Munich.de – options.js.example
+Showing the top four matches Last indexed on Jul 10, 2018
+        {key: 'EUR', img_src:'img/bitEUR.png', width:15, height:15, alt:"BTS/EUR", border:0, label: 'SURPRESS'},
+        {key: 'BTS_BTC', img_src:'img/bitBTS.png', width:15, height:15, alt:"BTS_BTC/EUR", border:0,  label: 'BTS_BTC/EUR'},
+        {key: 'bitUSD_BTC', img_src:'img/bitUSD.png', width:15, height:15, alt:"bitUSD", border:0,  label: 'bitUSD/EUR'},
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
